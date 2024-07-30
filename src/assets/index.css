@@ -1,0 +1,10 @@
+:root {
+	--container-px: 1rem;
+	--container-max-w: 1200px;
+}
+
+@media (min-width: 1232px) {
+	:root {
+		--container-px: calc((100vw - var(--container-max-w)) / 2 - 1rem);
+	}
+}

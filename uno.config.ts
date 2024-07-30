@@ -14,7 +14,10 @@ export default defineConfig({
 		presetWebFonts({
 			provider: 'bunny',
 			fonts: {
-				sans: 'Roboto',
+				sans: {
+					name: 'Roboto',
+					weights: [400, 500, 800],
+				},
 			},
 		}),
 	],
