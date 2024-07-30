@@ -16,6 +16,7 @@ pnpm run build
 
 # type check
 pnpm run typecheck
+
 # lint
 pnpm run lint
 ```
