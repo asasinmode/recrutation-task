@@ -5,5 +5,6 @@
 		<SectionCuriousAboutStockX class="mb-12" />
 		<SectionEveryoneBuzzing class="mb-12" />
 		<SectionFaq class="mb-4" />
+		<SectionAcceptedCreditCards />
 	</main>
 </template>
