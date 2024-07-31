@@ -2,6 +2,8 @@
 
 This is a simple layout implemented in Vue. It was made as a job recrutation task.
 
+### [preview on github pages](https://asasinmode.github.io/recrutation-task/)
+
 # development
 
 ```bash
