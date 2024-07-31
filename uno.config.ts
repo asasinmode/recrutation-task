@@ -16,7 +16,7 @@ export default defineConfig({
 			fonts: {
 				sans: {
 					name: 'Roboto',
-					weights: [400, 500, 700, 800],
+					weights: [400, 500, 600, 700, 800],
 				},
 			},
 		}),

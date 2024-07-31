@@ -4,5 +4,6 @@
 		<SectionTopTechMysteryBox class="mb-8" />
 		<SectionCuriousAboutStockX class="mb-12" />
 		<SectionEveryoneBuzzing class="mb-12" />
+		<SectionFaq class="mb-4" />
 	</main>
 </template>
