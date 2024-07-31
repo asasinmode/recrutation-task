@@ -1,6 +1,8 @@
 <template>
 	<main class="py-4">
 		<SectionChanceToWin class="mb-12" />
-		<SectionTopMysteryBoxes />
+		<SectionTopTechMysteryBox class="mb-8" />
+		<SectionCuriousAboutStockX class="mb-12" />
+		<SectionEveryoneBuzzing class="mb-12" />
 	</main>
 </template>
