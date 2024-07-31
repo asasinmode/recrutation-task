@@ -35,8 +35,7 @@ jobs:
       - name: install dependencies
         run: pnpm install
       - name: build
-        run: |
-          pnpm run build
+        run: pnpm run build --base=/recrutation-task/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
