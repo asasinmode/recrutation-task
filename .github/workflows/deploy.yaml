@@ -19,25 +19,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
-      - name: install pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
       - name: setup node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
-      - name: setup pages
-        uses: actions/configure-pages@v3
-      - name: install dependencies
-        run: pnpm install
-      - name: build
-        run: pnpm run build --base=/recrutation-task/
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v3
+      - run: pnpm install
+      - run: pnpm run build --base=/recrutation-task/
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
@@ -48,6 +40,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: deploy to GitHub Pages
+      - name: deploy to github pages
         id: deployment
         uses: actions/deploy-pages@v4
