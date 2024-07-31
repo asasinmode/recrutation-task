@@ -50,7 +50,7 @@ function setCarouselImage(index: number) {
 
 <template>
 	<section class="grid auto-rows-min grid-cols-[41fr_59fr] gap-x-4 px-[--container-px]">
-		<div class="relative grid row-span-3 grid-cols-3 my-auto h-fit gap-4">
+		<div class="relative grid row-span-3 grid-cols-3 my-auto h-fit gap-4 pl-[0.6875rem]">
 			<div class="absolute size-40 flex flex-col items-center justify-center gap-2 rounded-[50%] bg-[#006340] text-center text-[2.375rem] text-white font-700 leading-[1.17] -right-[0.3125rem] -top-4" style="box-shadow: 0 0 30px 0 hsl(0 0% 0% / 0.15">
 				$1.99 <br>
 				<span class="text-[0.875rem] font-400">Original value $500</span>

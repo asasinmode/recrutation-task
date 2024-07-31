@@ -1,5 +1,6 @@
 <template>
 	<main class="py-4">
-		<SectionChanceToWin />
+		<SectionChanceToWin class="mb-12" />
+		<SectionTopMysteryBoxes />
 	</main>
 </template>
