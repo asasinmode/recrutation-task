@@ -1,3 +1,5 @@
+@import 'variables.css';
+
 :root {
 	--container-px: 1rem;
 	--container-max-w: 1200px;
